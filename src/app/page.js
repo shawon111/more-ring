@@ -1,3 +1,4 @@
+import CostCalculator from "@/components/pages/home/CostCalculator";
 import CtaSection from "@/components/pages/home/CtaSection";
 import Faq from "@/components/pages/home/Faq";
 import HomeHero from "@/components/pages/home/HomeHero";
@@ -12,6 +13,7 @@ export default function Home() {
     <div>
       <HomeHero />
       <Industries />
+      <CostCalculator />
       <HowItWorks />
       <Integrations />
       <WhyBeats />
