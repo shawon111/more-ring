@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 const InterFont = Inter({
   variable: "--font-geist-sans",
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <main>{children}</main>
-        <footer></footer>
+        <Footer />
       </body>
     </html>
   );
